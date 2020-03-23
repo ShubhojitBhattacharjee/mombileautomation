@@ -6,7 +6,7 @@ desired_caps = {
     'deviceName': 'Android SDK built for x86',
     'udid': 'emulator-5554',
     'browserName': 'Chrome',
-    'chromedriverExecutable': './lib/chromedriver'
+    'chromedriverExecutable': './lib/mobilechromedriver'
 }
 
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
